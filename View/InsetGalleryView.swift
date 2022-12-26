@@ -14,7 +14,6 @@ struct InsetGalleryView: View {
 //MARK: - BODY
     var body: some View {
         
-        
         ScrollView(.horizontal, showsIndicators: false) {
             HStack (alignment: .center, spacing: 15){
                 ForEach(animal.gallery, id: \.self) { item in
@@ -29,10 +28,6 @@ struct InsetGalleryView: View {
         
     }
 }
-
-
-
-
 
 //MARK: - PREVIEW
 struct InsetGalleryView_Previews: PreviewProvider {

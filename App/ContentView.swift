@@ -22,7 +22,7 @@ struct ContentView: View {
                 ForEach(animals) { animal in
                     NavigationLink(destination: AnimalDetailView(animal: animal)){
                         AnimalListView(animal: animal)
-                    }//:list
+                    }//:link
                 }//:loop
             }//:list
             .navigationBarTitle("Africa", displayMode: .large)

@@ -28,12 +28,6 @@ struct HeadingView: View {
 }
 
 
-
-
-
-
-
-
 //MARK: - PREVIEW
 
 struct HeadingView_Previews: PreviewProvider {
